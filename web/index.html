@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>PEDIDOS SUCURSALES</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>FORMULARIO DE PEDIDOS</div>
+
+        <br>
+        <form method="post" action="envio">
+            <label>COD PEDIDO</label>
+            <input type="number" name="ID" required/>
+            <br>
+            <br>
+            <label>CODIGO CLIENTE</label>
+            <input type="number" name="CODIGOCLIENTE" required/>
+            <br>
+            <br>
+            <label>NOMBRE CLIENTE</label>
+            <input type="text" name="NOMBRECLIENTE" required/>
+            <br>
+            <br>
+            <label>FECHA</label>
+            <input type="date" name="FECHAPEDIDO" required/>
+            <br>
+            <br>
+            <label>FECHA ENTREGA</label>
+            <input type="date" name="FECHAENTREGA" required/>
+            <br>
+            <br>
+            <label>VENDEDOR</label>
+            <input type="text" name="VENDEDOR" required/>
+            <br>
+            <br>
+            <label>MONEDA</label>
+            <input type="text" name="MONEDA" required/>
+            <br>
+            <br>
+            <label>CODIGO DE ARTICULO</label>
+            <input type="number" name="CODIGOARTICULO"  required/>
+            <br>
+            <br>
+            <label>DESCRIPCION</label>
+            <input type="text" name="DESCRIPCIONARTICULO" required/>
+            <br>
+            <br>
+            <label>CANTIDAD</label> 
+            <input type="number" name="CANTIDAD" required/>
+            <br>
+            <br>
+            <label>PRECIO UNITARIO</label>
+            <input type="number" name="UNITARIO" required/>   
+            <br>
+            <br>
+            <input type="submit" value="Guardar"/>
+            &nbsp;
+            <input type="reset" value="Limpiar"/>
+
+        </form>
+    </body>
+</html>
